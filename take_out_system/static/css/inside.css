@@ -1,0 +1,358 @@
+@charset "utf-8";
+    body{
+            margin-top:0;
+            margin-left:0;
+        }
+
+    #nav{
+        position:absolute;
+        height: 30px;
+        width: 100%;
+        background-color: rgb(117, 81, 128);
+
+        }
+
+    #nav_1{
+        position:absolute;
+        top: 6px;
+        left: 200px;
+
+
+
+
+    }
+    #nav_1 a{
+        margin-left: 25px;
+        color: rgb(255, 115, 0);
+        font-weight: 600;
+        text-decoration: none;
+
+
+    }
+
+     #nav_2{
+        position:absolute;
+        right:50px;
+        font-weight: 600;
+        top:6px;
+    }
+    #nav_2 a{
+
+        margin-right: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: violet;
+
+    }
+
+
+
+    #nav img{
+        position:absolute;
+        margin-left:25px;
+        height: 30px;
+        width: 120px;
+        background-color: rgb(241, 245, 7);
+        border-radius: 42%;
+
+    }
+    #middle img{
+        position:absolute;
+        width: 100%;
+        height: 250px;
+        top: 30px;
+        opacity: 0.68;
+
+    }
+
+    #middle #middle_1{
+
+        position: relative;
+        left: 16%;
+        top: 20px;
+        width: 200px;
+        height: 200px;
+
+
+
+    }
+    #middle #middle_1 img{
+
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        opacity: 1.5;
+
+    }
+    #middle #middle_1 span{
+      position: absolute;
+      top: 194px;
+      text-align: center;
+      color:#e12ea4;
+      font-size: 20px;
+      left: 28px;
+      font-weight: 750;
+    }
+
+    #middle_1_1{
+        position:absolute;
+        right: 16%;
+        top:100px;
+    }
+
+    #middle_1_1 span{
+        display:inline-block;
+        height: 80px;
+        width: 200px;
+        color: rgb(245, 249, 252);
+        /* font-size: 20px; */
+        margin-right: 20px;
+        font-weight: 600;
+    }
+    #middle_1_1 span em{
+        display: block;
+        margin-top:20px;
+        font-size: 22px;
+
+    }
+
+    #middle2{
+        position:absolute;
+        width: 100%;
+        top:280px;
+        height: 40px;
+        background-color: rgb(204, 202, 193);
+    }
+    #middle2_1{
+        position:absolute;
+        top: 8px;
+        left: 50px;
+
+    }
+    #middle2_1 span{
+        color:rgb(255, 115, 0);
+        height: 40px;
+        margin-left: 20px;
+        font-size:18px;
+        font-weight:600;
+
+
+    }
+    #middle3 {
+        position:absolute;
+        top:340px;
+        left: 5%;
+        width: 80%;
+        height: 30px;
+        background-color: rgb(129, 107, 150);
+
+
+    }
+    #re{
+        color: red;
+        font-size: 22px;
+
+
+    }
+
+    #mbody{
+        position:absolute;
+        border: solid 1px rgb(170, 166, 166);
+        top: 380px;
+        left: 5%;
+        width: 80%;
+        height: 800px;
+    }
+    .body_1{
+        margin-left: 4px;
+        margin-top: 22px;
+        height: 50px;
+        display: inline-block;
+
+
+    }
+    .body_1 img{
+        margin-left: 50px;
+        width: 100px;
+        height: 100px;
+        border: solid 1px black;
+    }
+    .body_2{
+        margin-left: 50px;
+        margin-top: -105px;
+        left: 151px;
+        width: 300px;
+        height: 100px;
+        border: solid 1px black;
+
+    }
+    #mbody  .body_1 .body_2 ul{
+        margin-top: -3px;
+        margin-left: 64px;
+        list-style:none;
+        top:-19px;
+    }
+    .bd_2{
+        display:inline-block;
+        color: red;
+        font-size: 21px;
+
+    }
+    #bd_3{
+        display:inline-block;
+        color: red;
+        font-size: 21px;
+    }
+    .ll{
+        height:25px;
+        position: relative;
+        width:100px;
+        top :-50px;
+        left: 188px;
+        border-radius: 42%;
+        background-color: rgba(105, 105, 223, 0.589);
+
+
+    }
+    .num{
+        left:7px;
+        border-radius: 42%;
+        background-color: rgba(105, 105, 223, 0.589);
+        color:black;
+        font-size:13px;
+
+
+
+    }
+   .reduce{
+        position:relative;
+        border-radius: 50%;
+        font-size: 16px;
+        font-weight: 600;
+        color: blueviolet;
+        background-color: rgb(244, 248, 248);
+        right:58px;
+        display:none;
+
+
+    }
+   .add{
+         position:relative;
+        border-radius: 50%;
+        font-size: 16px;
+        font-weight: 600;
+        color: blueviolet;
+        background-color: rgb(244, 248, 248);
+        top:0px;
+        right:-72px;
+        display:none;
+
+    }
+
+    #out_count{
+        position:fixed;
+        width: 100%;
+        height: 60px;
+        bottom: 8px;
+        display:none;
+
+        }
+        #in_count_one{
+            position:absolute;
+            background-color:  rgb(128, 125, 117);
+            width: 80%;
+            height: 80px;
+            display:none;
+        }
+        #in_count_two{
+            position:absolute;
+            background-color: rgb(128, 125, 117);
+            width: 20%;
+            height: 80px;
+            left:80%;
+            text-align: center;
+            display:none;
+
+        }
+        #co_bu{
+            position:absolute;
+            width: 180px;
+            height: 60px;
+            top: 10%;
+            left: -13%;
+            background-color: rgb(117, 81, 128);
+            font-size: 25px;
+            font-weight: 800;
+            border-radius: 5%;
+            display:none;
+
+
+        }
+         #co_bu1{
+            color:red;
+            height:28px;
+
+
+        }
+
+          #in_count_three{
+            position:absolute;
+            width: 50%;
+            left: 30%;
+            height: 100%;
+            display:none;
+        }
+        #count_o{
+            position:absolute;
+            display: block;
+            right:55%;
+            top: 10%;
+            font-size: 25px;
+             display:none;
+             color:red;
+        }
+        #count_n{
+            position:absolute;
+            display: block;
+            right:70%;
+            top:10%;
+            font-size: 25px;
+             display:none;
+        }
+        #count_e{
+            position:absolute;
+            display: block;
+            right:70%;
+            top: 54%;
+            font-size: 18px;
+            width: 300px;
+            right:40%;
+             display:none;
+        }
+        #h{
+            position:absolute;
+            display: block;
+            width: 80px;
+            top:17%;
+            right:54.5%;
+             display:none;
+        }
+        #self_info {
+            border: solid 1px #aaa;
+            height: 25px;
+            width: 300px;
+            background-color: #fff;
+            display: none;
+            float: left;
+            border-radius: 5px;
+            color:orange;
+            z-index:999;
+            text-align:center;
+        }
+       .releaseBtn{
+       background-color:rgb(117, 81, 128);
+       width:80px;
+       height:30px;
+
+
+       }

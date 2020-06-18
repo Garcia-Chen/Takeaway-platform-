@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+
+</head>
+<link rel="stylesheet" type="text/css" href="/static/css/order_my.css">
+
+<body>
+<link rel="stylesheet" type="text/css" href="/static/css/sweetalert.css">
+<script type="text/javascript" src="/static/js/sweetalert-dev.js"></script>
+ <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/scrollReveal.js"></script>
+  <div id="nav">
+                <div id="nav_1">
+                <a href="http://127.0.0.1:8000/index">返回首页</a>
+                <a href="">我的订单</a>
+                <a href="">加盟合作</a>
+                <a href="">我的客服</a>
+                </div>
+                <div id="nav_2">
+                    <a href="http://127.0.0.1:8000/user_center">个人中心</a>
+                    <a href="">订餐热线</a>
+                </div>
+            </div>
+            <div id="middle">
+                    <img src="/static/inside/backhround.png" alt="">
+                    <div id="middle_1">
+                         <img src='' alt="">
+                        <span id="sec" value="{{ store_name }}">{{ store_name }}</span>
+                    </div>
+                    <div id="middle_1_1">
+                            <span>
+                                <em></em>
+                                <em></em>
+                            </span>
+                            <span>
+                                <em></em>
+                                <em></em>
+                            </span>
+                            <span>
+                                <em></em>
+                                <em></em>
+                            </span>
+                    </div>
+                  </div>
+
+            <div id="nav2"></div>
+
+    <div class="ltr01" data-scroll-reveal="bottom 5px 2 2">
+        <ul class="o_name">
+            <li>订单号：</li>
+            <li>下单人：</li>
+            <li>订单金额：</li>
+            <li>商家名称：</li>
+            <li>商品名称：</li>
+            <li>下单时间：</li>
+            <li>下单数量：</li>
+        </ul>
+
+    </div>
+
+  <script src="/static/js/order_my.js"></script>
+
+
+</body>
+</html>

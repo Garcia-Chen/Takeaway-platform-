@@ -1,0 +1,77 @@
+@charset "utf-8";
+       body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #login {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            opacity: 0.7;
+        }
+
+        #log {
+            width: 450px;
+            height: 280px;
+            /* border: solid 1px rgb(245, 152, 30); */
+            position: absolute;
+            background-color: white;
+            left: 50%;
+            top: 30%;
+            margin-left: -225px;
+            margin-top: -140px;
+            border-radius: 5%;
+            /* box-shadow: 5px 5px 5px  #decaf1; */
+            background-image:url("/static/index/2019-11-12 13-48-12 的屏幕截图.png");
+            /* background-color: rgb(193, 185, 201); */
+            background-repeat:no-repeat;
+            background-size:100% 100%;
+            -moz-background-size:100% 100%;
+            opacity: 0.65;
+
+        }
+
+        #from {
+            margin-left: -1%;
+            margin-top: 22%;
+
+        }
+
+        div {
+            text-align: center;
+        }
+
+        #login_line{
+            margin-top: -70px;
+            margin-left: 2px;
+
+
+        }
+        h3{
+            font-size: 22px;
+            font-weight: 600;
+            color: rgb(245, 64, 9);
+
+
+        }
+        #username{
+            border-radius: 4%;
+            height: 25px;
+            width: 225px;
+        }
+        #userps{
+            border-radius: 4%;
+            height: 25px;
+            width: 225px;
+        }
+        #su{
+            margin-top:10px;
+            width: 80px;
+            height: 30px;
+            font-size: 18px;
+            color: rgb(238, 53, 28);
+            background-color: rgb(93, 63, 114);
+            border-radius: 8%;
+
+        }

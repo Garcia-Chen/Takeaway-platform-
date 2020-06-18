@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>欢迎选购{{ store_name }}</title>
+    <link rel="stylesheet" href="/static/css/inside.css" type="text/css" media="screen" />
+    <script src="/static/js/jquery-2.1.1.min.js"></script>
+</head>
+
+<link rel="stylesheet" type="text/css" href="/static/css/sweetalert.css">
+<script type="text/javascript" src="/static/js/sweetalert-dev.js"></script>
+<script type="text/javascript" src="/static/js/wangEditor.js"></script>
+<body>
+    <div id="nav">
+        <img src="/static/inside/标题logo.png" alt="">
+
+        <div id="nav_1">
+        <a href="http://127.0.0.1:8000/index">返回首页</a>
+        <a href="http://127.0.0.1:8000/order/">我的订单</a>
+        <a href="">加盟合作</a>
+        <a href="">我的客服</a>
+        </div>
+
+        <div id="nav_2">
+            <a href="http://127.0.0.1:8000/user_center">个人中心</a>
+            <a href="">订餐热线</a>
+             <div id="self_info">
+                 0550-1555
+             </div>
+        </div>
+    </div>
+
+
+    <div id="middle">
+        <img src="/static/inside/2019-11-10 15-06-24 的屏幕截图.png" alt="">
+        <div id="middle_1">
+            <img src='/{{ store_image }}' alt="">
+            <span id="sec" value="{{ store_name }}">{{ store_name }}</span>
+        </div>
+        <div id="middle_1_1">
+                <span>
+                    <em>起送价</em>
+                    <em>{{ start_price }}元</em>
+                </span>
+                <span>
+                    <em>配送费</em>
+                    <em>{{ shipping_fee }}￥</em>
+                </span>
+                <span>
+                    <em>平均送达速度</em>
+                    <em>{{ average_time }}分钟</em>
+                </span>
+            </div>
+            <div>
+                <div></div>
+                <span id="save"></span>
+            </div>
+    </div>
+    <div id="middle2">
+        <div id="middle2_1">
+            <span>所有商品</span>
+            <span id="commentPage">评价</span>
+            <span>商家资质</span>
+        </div>
+    </div>
+    <div id="middle3">
+            <div id="middle2_3">
+                <span id="re">热销</span>
+                <span>大家喜欢吃，才叫真好吃</span>
+            </div>
+    </div>
+        <div id="mbody">
+                <div class="body_1">
+                   <!--<img src="{{ dic.c_picture }}" alt="">-->
+                   <!--<div class="body_2">-->
+                      <!--<ul>-->
+                          <!--<li><span class="bd_2">{{ dic.c_name }}（力荐）</span></li>-->
+                          <!--<li><span>主要原料：鸡肉</span></li>-->
+                          <!--<li><span>月售：1400</span></li>-->
+                          <!--<li><span id="bd_3">￥</span><span class="j_c">14.66</span></li>-->
+                      <!--</ul>-->
+                       <!--<div class="ll">-->
+                       <!--<button class="add">+</button>-->
+                       <!--<button class="num">添加到购物车</button>-->
+                       <!--<button class="reduce">-</button>-->
+                       <!--</div>-->
+                   <!--</div>-->
+
+                </div>
+            </div>
+
+    <div id="out_count">
+        <div id="in_count_one">
+             <div id="in_count_three">
+                <hr id="h">
+                <span id="count_o">￥41.88</span>
+                <span id="count_n">￥20.88</span>
+                <span id="count_e">另需配送费3.4元／可自取</span>
+            </div>
+
+        </div>
+
+        <div id="in_count_two">
+            <button id="co_bu">去结算</button>
+            <button id="co_bu1">使用优惠劵</button>
+        </div>
+    </div>
+
+</body>
+<script src="/static/js/count.js"></script>
+<script src="/static/js/secondary.js"></script>
+</html>

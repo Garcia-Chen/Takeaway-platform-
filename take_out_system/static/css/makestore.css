@@ -1,0 +1,119 @@
+@charset "utf-8";
+    body{
+            margin-top:0;
+            margin-left:0;
+        }
+    progress{
+            margin-left: 30%;
+            margin-top:10%;
+            width:40%;
+            height:60px;
+        }
+        span{
+            top:10%;
+            left:40%;
+            position:absolute;
+            font-size: 30px;
+            font-weight: 600px;
+            color: blueviolet;
+
+        }
+        #left{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius: 48%;
+            background-color: red;
+            top:152px;
+            left: 787px;
+            transition: all 2s;
+            box-shadow: 6px 6px 19px red;
+
+
+        }
+        #right{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border-radius:48%;
+            background-color: red;
+            top:152px;
+            left: 638px;
+            transition: all 2s;
+            box-shadow: 6px 6px 19px red;
+
+
+        }
+        #all{
+            /* margin: 200px 400px; */
+            width: 800px;
+            height: 800px;
+            transition: all 2s;
+            transform: scale(1);
+
+
+        }
+        #bottom{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            transform: rotateZ(45deg);
+            position: absolute;
+            left: 714px;
+            top: 230px;
+            /* border-radius: 20%; */
+            box-shadow: 6px 6px 19px red;
+            transition: all 3s;
+        }
+        #nav{
+        position:absolute;
+        height: 30px;
+        width: 100%;
+        background-color: rgb(117, 81, 128);
+
+        }
+
+    #nav_1{
+        position:absolute;
+        top: 6px;
+        left: 200px;
+
+
+
+
+    }
+    #nav_1 a{
+        margin-left: 25px;
+        color: rgb(255, 115, 0);
+        font-weight: 600;
+        text-decoration: none;
+
+
+    }
+
+     #nav_2{
+        position:absolute;
+        right:50px;
+        font-weight: 600;
+        top:6px;
+    }
+    #nav_2 a{
+
+        margin-right: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        color: violet;
+
+    }
+
+
+
+    #nav img{
+        position:absolute;
+        margin-left:25px;
+        height: 30px;
+        width: 120px;
+        background-color: rgb(241, 245, 7);
+        border-radius: 42%;
+
+    }
